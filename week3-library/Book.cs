@@ -14,7 +14,7 @@
             this.ISBN = bookISBN;
         }
 
-         void DisplayInfo()
+        public void DisplayInfo()
         {
             Console.WriteLine($"Book Title: {Title}");
             Console.WriteLine($"BookAuthor: {Author}");
